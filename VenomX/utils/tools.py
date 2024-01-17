@@ -2,7 +2,7 @@ import asyncio
 import os
 import shlex
 import textwrap
-from typing import tuple
+from typing import Tuple
 
 from PIL import Image, ImageDraw, ImageFont
 

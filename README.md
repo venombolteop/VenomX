@@ -18,8 +18,6 @@
 
 - [ᴠᴇɴᴏᴍ](https://github.com/venombolteop)ㅤㅤㅤㅤㅤㅤㅤㅤ
 
-- [PʏTɢCᴀʟʟs](https://github.com/pytgcalls/pytgcalls)
-
 - [Pʏʀᴏɢʀᴀᴍ](https://github.com/pyrogram/pyrogram)
 
 ━━━━━━━━━━━━━━━━━━━━

@@ -11,10 +11,6 @@
        "description": "Get Hash API on the web my.telegram.org",
        "required": true
      },
-     "DATABASE_URL": {
-       "description": "Get db on the web elephantsql.com",
-       "required": true
-     },
      "STRING_SESSION1": {
        "description": "Get String Session Pyrogram in Group » https://t.me/Venom_Chatz» Then type #string",
        "required": true

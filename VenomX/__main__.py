@@ -10,14 +10,15 @@ from VenomX.modules import ALL_MODULES
 MSG_ON = """
 🔥 **VenomX-Userbot successfully activated**
 ━━
-➠ **Userbot Version -** `{}`
-➠ **Type** `{}alive` **to check the bot**
+➠ **Userbot Version -** `{version}`
+➠ **Type** `{handler}alive` **to check the bot**
 ━━
 """
 
 async def main():
     for all_module in ALL_MODULES:
-        importlib.import_module(f"VenomX.modules.{all_module}")
+        importlib.import_module("VenomX.modules." + all_module)
+
     for bot in bots:
         try:
             await bot.start()
@@ -26,18 +27,19 @@ async def main():
             await bot.join_chat("Venom_Chatz")
             try:
                 await bot.send_message(
-                    BOTLOG_CHATID, MSG_ON.format(BOT_VER, CMD_HANDLER)
+                    BOTLOG_CHATID, MSG_ON.format(version=BOT_VER, handler=CMD_HANDLER)
                 )
             except BaseException:
                 pass
-            LOGGER("VenomX").info(
-                f"Logged in as {bot.me.first_name} | [ {bot.me.id} ]"
-            )
-        except Exception as a:
-            LOGGER("main").warning(a)
+            LOGGER("VenomX").info(f"Logged in as {bot.me.first_name} | [ {bot.me.id} ]")
+        except Exception as e:
+            LOGGER("main").warning(e)
+
     LOGGER("VenomX").info(f"VenomX-UserBot v{BOT_VER} [🔥 SUCCESSFULLY ACTIVATED! 🔥]")
+
     if bot1 and not str(BOTLOG_CHATID).startswith("-100"):
         await create_botlog(bot1)
+
     await idle()
     await aiosession.close()
 

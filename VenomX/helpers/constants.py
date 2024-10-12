@@ -10,8 +10,8 @@ class First:
 
 ✣ **Userbot Version :** `{}`
 ✣ **Group Support :** [ᴠᴇɴᴏᴍ ᴄʜᴀᴛᴢ](t.me/venom_chatz)
-✣ **Channel Man :** [ᴠᴇɴᴏᴍ ᴛᴇᴄʜ](t.me/VenomOwners)
-✣ **Repo Owner :** [ᴠᴇɴᴏᴍ](t.me/Venom_bolte_pubIic)
+✣ **Channel :** [ᴠᴇɴᴏᴍ ᴛᴇᴄʜ](t.me/VenomOwners)
+✣ **Repo Owner :** [ᴠᴇɴᴏᴍ](t.me/K_4ip)
 ✣ **Repo :** [VenomX-Userbot](https://github.com/venombolteop/VenomX)"""
      CREATOR = 'I was created by my master <a href="https://github.com/venombolteop/VenomX">Fuck</a> on a rainy day.'
      MSG_ON = """

@@ -32,7 +32,7 @@
     {
       "plan": "heroku-postgresql",
       "options": {
-        "version": "16" // Adjust this to the version you need
+        "version": "16"
       }
     }
   ],

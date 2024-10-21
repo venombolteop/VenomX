@@ -45,7 +45,7 @@
    "formation": {
      "workers": {
        "quantity": 1,
-       "size": "eco"
+       "size": "basic"
      }
    }
 }

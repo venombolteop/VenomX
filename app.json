@@ -1,6 +1,6 @@
 {
   "name": "VenomX-Userbot",
-  "description": "[VenomX-Userbot] is a modular Telegram userbot running on Python3 with the Pyrogram Library.",
+  "description": "[VenomX-Userbot] is a Telegram userbot running on Python3 with the Pyrogram Library.",
   "env": {
     "API_ID": {
       "description": "Get API ID on the web my.telegram.org Enter the Telegram API ID",
@@ -11,7 +11,7 @@
       "required": true
     },
     "STRING_SESSION1": {
-      "description": "Get String Session Pyrogram in Group » https://t.me/Venom_Chatz » Then type #string",
+      "description": "Get String Session Pyrogram in Group » https://t.me/Venom_Chatz» Then type #string",
       "required": true
     },
     "BOTLOG_CHATID": {
@@ -30,7 +30,10 @@
   },
   "addons": [
     {
-      "plan": "heroku-postgresql"
+      "plan": "heroku-postgresql",
+      "options": {
+        "version": "16" // Adjust this to the version you need
+      }
     }
   ],
   "buildpacks": [
@@ -38,7 +41,7 @@
       "url": "heroku/python"
     },
     {
-      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+      "url": "https://github.com/interconnectit/heroku-buildpack-ffmpeg"
     }
   ],
   "formation": {

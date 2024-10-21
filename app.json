@@ -4,7 +4,7 @@
    "stack": "container",
    "env": {
      "API_ID": {
-       "description": "Get API ID on the web my.telegram.org Enter the Telegram APP ID",
+       "description": "Get API ID on the web my.telegram.org Enter the Telegram API ID",
        "required": true
      },
      "API_HASH": {
